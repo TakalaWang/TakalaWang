@@ -1,0 +1,86 @@
+name: Refresh GitHub Cookie
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # every Sunday midnight UTC
+  workflow_dispatch: # manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install playwright otplib
+
+      - name: Install Playwright browser
+        run: npx playwright install chromium
+
+      - name: Login to GitHub and extract cookie
+        id: login
+        run: |
+          node << 'SCRIPT'
+          const { chromium } = require('playwright');
+          const { authenticator } = require('otplib');
+          const fs = require('fs');
+
+          (async () => {
+            const browser = await chromium.launch();
+            const context = await browser.newContext();
+            const page = await context.newPage();
+
+            // Navigate to GitHub login
+            await page.goto('https://github.com/login');
+            await page.fill('#login_field', process.env.GH_USERNAME);
+            await page.fill('#password', process.env.GH_PASSWORD);
+            await page.click('[name="commit"]');
+
+            // Handle 2FA (TOTP)
+            try {
+              await page.waitForSelector('#app_totp', { timeout: 10000 });
+              const totp = authenticator.generate(process.env.TOTP_SECRET);
+              await page.fill('#app_totp', totp);
+              // Wait for navigation after TOTP
+              await page.waitForNavigation({ timeout: 15000 });
+            } catch (e) {
+              // Maybe no 2FA prompt, or different flow
+              console.log('2FA note:', e.message);
+            }
+
+            // Wait for login to complete
+            await page.waitForURL('https://github.com/**', { timeout: 15000 });
+
+            // Extract user_session cookie
+            const cookies = await context.cookies('https://github.com');
+            const session = cookies.find(c => c.name === 'user_session');
+
+            if (!session) {
+              console.error('Failed to get user_session cookie');
+              console.log('Available cookies:', cookies.map(c => c.name).join(', '));
+              process.exit(1);
+            }
+
+            fs.writeFileSync('cookie_value.txt', session.value);
+            console.log('Cookie extracted successfully');
+
+            await browser.close();
+          })();
+          SCRIPT
+        env:
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+          GH_PASSWORD: ${{ secrets.GH_PASSWORD }}
+          TOTP_SECRET: ${{ secrets.TOTP_SECRET }}
+
+      - name: Update GH_COOKIE secret
+        run: |
+          COOKIE=$(cat cookie_value.txt)
+          gh secret set GH_COOKIE --repo TakalaWang/TakalaWang --body "$COOKIE"
+          echo "GH_COOKIE secret updated successfully"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
