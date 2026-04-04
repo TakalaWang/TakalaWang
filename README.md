@@ -58,23 +58,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-  <img height="170em" src="https://github-readme-stats-tau-blond-48.vercel.app/api?username=TakalaWang&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true&v=4" />
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=TakalaWang&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/TakalaWang)
-
-</div>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
-
-</div>
+## GitHub Activity
 
 <div align="center">
 
