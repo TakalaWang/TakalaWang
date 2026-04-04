@@ -75,7 +75,7 @@ fun:
 
 <div align="center">
 
-![](https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4)
+https://github.com/user-attachments/assets/27001b70-0903-487b-afae-5705edaa6265
 
 **[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Updated daily from my playlist*
 
