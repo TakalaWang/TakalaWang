@@ -27,7 +27,8 @@ jobs:
         run: |
           node << 'SCRIPT'
           const { chromium } = require('playwright');
-          const { authenticator } = require('otplib');
+          const otplib = require('otplib');
+          const authenticator = otplib.authenticator;
           const fs = require('fs');
 
           (async () => {
