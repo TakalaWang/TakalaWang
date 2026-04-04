@@ -5,8 +5,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-TakalaWang-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/takalawang/)
 [![Blog](https://img.shields.io/badge/Blog-takalawang.github.io-39d353?style=flat-square&logo=astro)](https://takalawang.github.io/)
 [![Instagram](https://img.shields.io/badge/Instagram-takala__1128-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/takala_1128/)
+![Profile Views](https://komarev.com/ghpvc/?username=TakalaWang&style=flat-square&color=39d353)
 
 </div>
+
+---
 
 ## About Me
 
@@ -26,18 +29,31 @@ fun:
   - Milk Tea Powered
 ```
 
+---
+
 ## Tech Stack
 
+<div align="center">
+
 [![My Skills](https://skillicons.dev/icons?i=python,typescript,rust,cpp,svelte,react,nextjs,astro,tailwind,fastapi,postgres,firebase,docker,githubactions,gcp,linux&perline=8)](https://skillicons.dev)
+
+</div>
+
+---
 
 ## Now Playing
 
 <div align="center">
 
-<!-- Generated daily by TakalaWang/readme-waves -->
-<img src="./assets/waveform.svg" alt="Music Waveform" />
+<a href="https://www.youtube.com/watch?v=3SxWmack0kY">
+  <img src="./assets/waveform.svg" alt="Now Playing" />
+</a>
+
+**[ADAMAS / LiSA - SLSMusic](https://www.youtube.com/watch?v=3SxWmack0kY)** | *Updated daily from my playlist*
 
 </div>
+
+---
 
 ## GitHub Stats
 
@@ -52,6 +68,24 @@ fun:
 
 </div>
 
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
+
+</div>
+
+---
+
+## LeetCode
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/takalawang?theme=dark&font=Source%20Code%20Pro&ext=heatmap)](https://leetcode.com/takalawang/)
+
+</div>
+
+---
+
 ## Featured Projects
 
 <div align="center">
@@ -60,4 +94,3 @@ fun:
 [![discord-code-agent](https://github-readme-stats.vercel.app/api/pin/?username=TakalaWang&repo=discord-code-agent&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/TakalaWang/discord-code-agent)
 
 </div>
-
