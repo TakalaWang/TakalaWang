@@ -68,12 +68,6 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy-rose-three.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
-
-</div>
-
-<div align="center">
-
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=TakalaWang&theme=tokyo-night&hide_border=true&bg_color=0d1117)](https://github.com/TakalaWang)
 
 </div>
