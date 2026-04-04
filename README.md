@@ -68,7 +68,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
+[![trophy](https://github-profile-trophy-rose-three.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
 
 </div>
 
