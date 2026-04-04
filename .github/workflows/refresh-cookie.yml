@@ -65,23 +65,31 @@ jobs:
             const totp = generateTOTP(process.env.TOTP_SECRET);
             console.log('TOTP generated, length:', totp.length);
 
-            // Fill and submit immediately
+            // Fill and submit
             await page.fill('#app_totp', totp);
-            await page.keyboard.press('Enter');
+            await page.click('button:has-text("Verify")');
+            await page.waitForTimeout(5000);
 
-            // Wait for redirect — if code was wrong, we stay on /sessions/
-            try {
-              await page.waitForURL(/github\.com\/(?!sessions)/, { timeout: 20000 });
-              console.log('Login complete:', page.url());
-            } catch (e) {
-              // Maybe code expired, try once more with fresh code
-              console.log('First attempt failed, retrying with fresh TOTP...');
+            // Debug: what does the page show after TOTP submit?
+            console.log('After TOTP - URL:', page.url());
+            const bodyText = await page.$eval('body', el => el.innerText.substring(0, 1000));
+            console.log('Page text:', bodyText);
+
+            // Check if we're past 2FA
+            if (!page.url().includes('/sessions/')) {
+              console.log('Login complete!');
+            } else {
+              // Retry with fresh code
+              console.log('Retrying with fresh TOTP...');
+              await page.waitForTimeout(2000);
               const totp2 = generateTOTP(process.env.TOTP_SECRET);
-              await page.fill('#app_totp', '');
-              await page.fill('#app_totp', totp2);
-              await page.keyboard.press('Enter');
-              await page.waitForURL(/github\.com\/(?!sessions)/, { timeout: 20000 });
-              console.log('Login complete on retry:', page.url());
+              const input = await page.$('#app_totp');
+              if (input) {
+                await input.fill(totp2);
+                await page.click('button:has-text("Verify")');
+                await page.waitForTimeout(5000);
+                console.log('After retry - URL:', page.url());
+              }
             }
 
             // Extract user_session cookie
