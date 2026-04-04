@@ -45,11 +45,9 @@ fun:
 
 <div align="center">
 
-<a href="https://www.youtube.com/watch?v=3SxWmack0kY">
-  <img src="./assets/waveform.svg" alt="Now Playing" />
-</a>
+<video src="https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4" controls autoplay loop muted></video>
 
-**[ADAMAS / LiSA - SLSMusic](https://www.youtube.com/watch?v=3SxWmack0kY)** | *Updated daily from my playlist*
+**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Click to unmute* | *Updated daily from my playlist*
 
 </div>
 
