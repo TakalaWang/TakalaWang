@@ -61,15 +61,28 @@ jobs:
             await page.waitForSelector('#app_totp', { timeout: 10000 });
             console.log('2FA page loaded:', page.url());
 
-            // Enter TOTP code
+            // Generate TOTP as late as possible to avoid timing issues
             const totp = generateTOTP(process.env.TOTP_SECRET);
             console.log('TOTP generated, length:', totp.length);
-            await page.fill('#app_totp', totp);
-            await page.click('button:has-text("Verify")');
 
-            // Wait for redirect to dashboard
-            await page.waitForURL(/github\.com\/(?!sessions)/, { timeout: 15000 });
-            console.log('Login complete:', page.url());
+            // Fill and submit immediately
+            await page.fill('#app_totp', totp);
+            await page.keyboard.press('Enter');
+
+            // Wait for redirect — if code was wrong, we stay on /sessions/
+            try {
+              await page.waitForURL(/github\.com\/(?!sessions)/, { timeout: 20000 });
+              console.log('Login complete:', page.url());
+            } catch (e) {
+              // Maybe code expired, try once more with fresh code
+              console.log('First attempt failed, retrying with fresh TOTP...');
+              const totp2 = generateTOTP(process.env.TOTP_SECRET);
+              await page.fill('#app_totp', '');
+              await page.fill('#app_totp', totp2);
+              await page.keyboard.press('Enter');
+              await page.waitForURL(/github\.com\/(?!sessions)/, { timeout: 20000 });
+              console.log('Login complete on retry:', page.url());
+            }
 
             // Extract user_session cookie
             const cookies = await context.cookies('https://github.com');
