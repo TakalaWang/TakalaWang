@@ -57,6 +57,12 @@ jobs:
             await page.fill('#login_field', process.env.GH_USERNAME);
             await page.fill('#password', process.env.GH_PASSWORD);
             await page.click('[name="commit"]');
+            await page.waitForTimeout(5000);
+
+            // Debug: where are we after login?
+            console.log('After password - URL:', page.url());
+            const bodyText1 = await page.$eval('body', el => el.innerText.substring(0, 500));
+            console.log('Page content:', bodyText1);
 
             // Wait for 2FA page
             await page.waitForSelector('#app_totp', { timeout: 10000 });
