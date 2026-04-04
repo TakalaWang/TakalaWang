@@ -1,0 +1,25 @@
+name: Generate Waveform
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: TakalaWang/readme-waves@v1
+        with:
+          playlist_url: 'https://www.youtube.com/playlist?list=PLqY5-xxyprjvRFtzx5OPeWYIyncPC2JGi'
+          output_path: assets/waveform.svg
+          rows: '7'
+          cols: '52'
+          frames: '60'
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update waveform'
+          file_pattern: 'assets/*'

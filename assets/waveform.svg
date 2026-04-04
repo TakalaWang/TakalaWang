@@ -1,0 +1,854 @@
+<svg width="705" height="120" viewBox="0 0 705 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes row-0 {
+      0.0% { fill: #161b22; }
+      1.7% { fill: #161b22; }
+      3.4% { fill: #161b22; }
+      5.1% { fill: #161b22; }
+      6.8% { fill: #161b22; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #161b22; }
+      96.6% { fill: #161b22; }
+      98.3% { fill: #0e4429; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-1 {
+      0.0% { fill: #161b22; }
+      1.7% { fill: #161b22; }
+      3.4% { fill: #161b22; }
+      5.1% { fill: #161b22; }
+      6.8% { fill: #161b22; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #0e4429; }
+      96.6% { fill: #0e4429; }
+      98.3% { fill: #0e4429; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-2 {
+      0.0% { fill: #0e4429; }
+      1.7% { fill: #0e4429; }
+      3.4% { fill: #0e4429; }
+      5.1% { fill: #0e4429; }
+      6.8% { fill: #161b22; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #0e4429; }
+      96.6% { fill: #006d32; }
+      98.3% { fill: #006d32; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-3 {
+      0.0% { fill: #161b22; }
+      1.7% { fill: #0e4429; }
+      3.4% { fill: #006d32; }
+      5.1% { fill: #006d32; }
+      6.8% { fill: #161b22; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #0e4429; }
+      96.6% { fill: #006d32; }
+      98.3% { fill: #006d32; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-4 {
+      0.0% { fill: #0e4429; }
+      1.7% { fill: #006d32; }
+      3.4% { fill: #39d353; }
+      5.1% { fill: #39d353; }
+      6.8% { fill: #39d353; }
+      8.5% { fill: #39d353; }
+      10.2% { fill: #39d353; }
+      11.9% { fill: #39d353; }
+      13.6% { fill: #39d353; }
+      15.3% { fill: #39d353; }
+      16.9% { fill: #39d353; }
+      18.6% { fill: #39d353; }
+      20.3% { fill: #39d353; }
+      22.0% { fill: #39d353; }
+      23.7% { fill: #39d353; }
+      25.4% { fill: #39d353; }
+      27.1% { fill: #39d353; }
+      28.8% { fill: #39d353; }
+      30.5% { fill: #39d353; }
+      32.2% { fill: #39d353; }
+      33.9% { fill: #39d353; }
+      35.6% { fill: #39d353; }
+      37.3% { fill: #39d353; }
+      39.0% { fill: #39d353; }
+      40.7% { fill: #39d353; }
+      42.4% { fill: #39d353; }
+      44.1% { fill: #39d353; }
+      45.8% { fill: #39d353; }
+      47.5% { fill: #39d353; }
+      49.2% { fill: #39d353; }
+      50.8% { fill: #39d353; }
+      52.5% { fill: #39d353; }
+      54.2% { fill: #39d353; }
+      55.9% { fill: #39d353; }
+      57.6% { fill: #39d353; }
+      59.3% { fill: #39d353; }
+      61.0% { fill: #39d353; }
+      62.7% { fill: #39d353; }
+      64.4% { fill: #39d353; }
+      66.1% { fill: #39d353; }
+      67.8% { fill: #39d353; }
+      69.5% { fill: #39d353; }
+      71.2% { fill: #39d353; }
+      72.9% { fill: #39d353; }
+      74.6% { fill: #39d353; }
+      76.3% { fill: #39d353; }
+      78.0% { fill: #39d353; }
+      79.7% { fill: #39d353; }
+      81.4% { fill: #39d353; }
+      83.1% { fill: #39d353; }
+      84.7% { fill: #39d353; }
+      86.4% { fill: #39d353; }
+      88.1% { fill: #39d353; }
+      89.8% { fill: #39d353; }
+      91.5% { fill: #39d353; }
+      93.2% { fill: #39d353; }
+      94.9% { fill: #39d353; }
+      96.6% { fill: #39d353; }
+      98.3% { fill: #39d353; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-5 {
+      0.0% { fill: #0e4429; }
+      1.7% { fill: #006d32; }
+      3.4% { fill: #26a641; }
+      5.1% { fill: #006d32; }
+      6.8% { fill: #0e4429; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #0e4429; }
+      96.6% { fill: #26a641; }
+      98.3% { fill: #26a641; }
+      100.0% { fill: #0e4429; }
+    }
+    @keyframes row-6 {
+      0.0% { fill: #161b22; }
+      1.7% { fill: #006d32; }
+      3.4% { fill: #26a641; }
+      5.1% { fill: #006d32; }
+      6.8% { fill: #0e4429; }
+      8.5% { fill: #161b22; }
+      10.2% { fill: #161b22; }
+      11.9% { fill: #161b22; }
+      13.6% { fill: #161b22; }
+      15.3% { fill: #161b22; }
+      16.9% { fill: #161b22; }
+      18.6% { fill: #161b22; }
+      20.3% { fill: #161b22; }
+      22.0% { fill: #161b22; }
+      23.7% { fill: #161b22; }
+      25.4% { fill: #161b22; }
+      27.1% { fill: #161b22; }
+      28.8% { fill: #161b22; }
+      30.5% { fill: #161b22; }
+      32.2% { fill: #161b22; }
+      33.9% { fill: #161b22; }
+      35.6% { fill: #161b22; }
+      37.3% { fill: #161b22; }
+      39.0% { fill: #161b22; }
+      40.7% { fill: #161b22; }
+      42.4% { fill: #161b22; }
+      44.1% { fill: #161b22; }
+      45.8% { fill: #161b22; }
+      47.5% { fill: #161b22; }
+      49.2% { fill: #161b22; }
+      50.8% { fill: #161b22; }
+      52.5% { fill: #161b22; }
+      54.2% { fill: #161b22; }
+      55.9% { fill: #161b22; }
+      57.6% { fill: #161b22; }
+      59.3% { fill: #161b22; }
+      61.0% { fill: #161b22; }
+      62.7% { fill: #161b22; }
+      64.4% { fill: #161b22; }
+      66.1% { fill: #161b22; }
+      67.8% { fill: #161b22; }
+      69.5% { fill: #161b22; }
+      71.2% { fill: #161b22; }
+      72.9% { fill: #161b22; }
+      74.6% { fill: #161b22; }
+      76.3% { fill: #161b22; }
+      78.0% { fill: #161b22; }
+      79.7% { fill: #161b22; }
+      81.4% { fill: #161b22; }
+      83.1% { fill: #161b22; }
+      84.7% { fill: #161b22; }
+      86.4% { fill: #161b22; }
+      88.1% { fill: #161b22; }
+      89.8% { fill: #161b22; }
+      91.5% { fill: #161b22; }
+      93.2% { fill: #161b22; }
+      94.9% { fill: #0e4429; }
+      96.6% { fill: #26a641; }
+      98.3% { fill: #26a641; }
+      100.0% { fill: #0e4429; }
+    }
+    .c0 { animation-delay: 0.00s; }
+    .c1 { animation-delay: 0.19s; }
+    .c2 { animation-delay: 0.38s; }
+    .c3 { animation-delay: 0.58s; }
+    .c4 { animation-delay: 0.77s; }
+    .c5 { animation-delay: 0.96s; }
+    .c6 { animation-delay: 1.15s; }
+    .c7 { animation-delay: 1.35s; }
+    .c8 { animation-delay: 1.54s; }
+    .c9 { animation-delay: 1.73s; }
+    .c10 { animation-delay: 1.92s; }
+    .c11 { animation-delay: 2.12s; }
+    .c12 { animation-delay: 2.31s; }
+    .c13 { animation-delay: 2.50s; }
+    .c14 { animation-delay: 2.69s; }
+    .c15 { animation-delay: 2.88s; }
+    .c16 { animation-delay: 3.08s; }
+    .c17 { animation-delay: 3.27s; }
+    .c18 { animation-delay: 3.46s; }
+    .c19 { animation-delay: 3.65s; }
+    .c20 { animation-delay: 3.85s; }
+    .c21 { animation-delay: 4.04s; }
+    .c22 { animation-delay: 4.23s; }
+    .c23 { animation-delay: 4.42s; }
+    .c24 { animation-delay: 4.62s; }
+    .c25 { animation-delay: 4.81s; }
+    .c26 { animation-delay: 5.00s; }
+    .c27 { animation-delay: 5.19s; }
+    .c28 { animation-delay: 5.38s; }
+    .c29 { animation-delay: 5.58s; }
+    .c30 { animation-delay: 5.77s; }
+    .c31 { animation-delay: 5.96s; }
+    .c32 { animation-delay: 6.15s; }
+    .c33 { animation-delay: 6.35s; }
+    .c34 { animation-delay: 6.54s; }
+    .c35 { animation-delay: 6.73s; }
+    .c36 { animation-delay: 6.92s; }
+    .c37 { animation-delay: 7.12s; }
+    .c38 { animation-delay: 7.31s; }
+    .c39 { animation-delay: 7.50s; }
+    .c40 { animation-delay: 7.69s; }
+    .c41 { animation-delay: 7.88s; }
+    .c42 { animation-delay: 8.08s; }
+    .c43 { animation-delay: 8.27s; }
+    .c44 { animation-delay: 8.46s; }
+    .c45 { animation-delay: 8.65s; }
+    .c46 { animation-delay: 8.85s; }
+    .c47 { animation-delay: 9.04s; }
+    .c48 { animation-delay: 9.23s; }
+    .c49 { animation-delay: 9.42s; }
+    .c50 { animation-delay: 9.62s; }
+    .c51 { animation-delay: 9.81s; }
+  </style>
+    <rect class="c0" x="16" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="16" width="10" height="10" rx="2" fill="#161b22" style="animation: row-0 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="29" width="10" height="10" rx="2" fill="#161b22" style="animation: row-1 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="42" width="10" height="10" rx="2" fill="#161b22" style="animation: row-2 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="55" width="10" height="10" rx="2" fill="#161b22" style="animation: row-3 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="68" width="10" height="10" rx="2" fill="#161b22" style="animation: row-4 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="81" width="10" height="10" rx="2" fill="#161b22" style="animation: row-5 10s ease-in-out infinite;" />
+    <rect class="c0" x="16" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c1" x="29" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c2" x="42" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c3" x="55" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c4" x="68" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c5" x="81" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c6" x="94" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c7" x="107" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c8" x="120" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c9" x="133" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c10" x="146" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c11" x="159" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c12" x="172" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c13" x="185" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c14" x="198" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c15" x="211" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c16" x="224" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c17" x="237" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c18" x="250" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c19" x="263" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c20" x="276" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c21" x="289" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c22" x="302" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c23" x="315" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c24" x="328" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c25" x="341" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c26" x="354" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c27" x="367" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c28" x="380" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c29" x="393" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c30" x="406" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c31" x="419" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c32" x="432" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c33" x="445" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c34" x="458" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c35" x="471" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c36" x="484" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c37" x="497" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c38" x="510" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c39" x="523" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c40" x="536" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c41" x="549" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c42" x="562" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c43" x="575" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c44" x="588" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c45" x="601" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c46" x="614" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c47" x="627" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c48" x="640" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c49" x="653" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c50" x="666" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+    <rect class="c51" x="679" y="94" width="10" height="10" rx="2" fill="#161b22" style="animation: row-6 10s ease-in-out infinite;" />
+</svg>
