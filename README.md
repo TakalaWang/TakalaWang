@@ -89,14 +89,13 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
 
-**ccwangtakala@gmail.com**
+**ccwangtakala@gmail.com** &nbsp;•&nbsp; **takala.wang@gitroll.io**
 
 <br>
 
 [![Linkedin](https://img.shields.io/badge/Linkedin-Takala%20Wang-0077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/takalawang/)
 [![GitHub](https://img.shields.io/badge/GitHub-TakalaWang-100000.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/TakalaWang)
 [![Instagram](https://img.shields.io/badge/IG-takala__1128-E4405F.svg?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/takala_1128/)
-[![Facebook](https://img.shields.io/badge/FB-Takala1128-1877F2.svg?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/Takala1128)
 
 <br>
 
