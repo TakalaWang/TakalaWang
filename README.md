@@ -105,13 +105,13 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 ---
 
-## Now Playing
+## Now Playing - My Favorite Song
 
 <div align="center">
 
 https://github.com/user-attachments/assets/27001b70-0903-487b-afae-5705edaa6265
 
-**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Updated daily from my playlist*
+**[Mili - YUBIKIRI-GENMAN](https://www.youtube.com/watch?v=AN72_SVbETA)** | [readme-wave](https://github.com/TakalaWang/readme-waves)
 
 </div>
 
