@@ -16,9 +16,8 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 - 🎓 **M.S. CS @ NYCU** · B.S. CS @ NTNU · Teacher Education Program @ NTNU
 - 🌐 **Dev** — Full-Stack & ML with Python, SvelteKit, Next.js, Go, Rust
-- 🐱 Will stop coding to pet any cat in sight
-- 🔐 Always looking for an escape room team to break out with
-- 🧋 Fueled by milk tea, mystery novels, and [SLSMusic](https://www.youtube.com/@slsmusic) piano covers
+- 🎹 Piano player & [SLSMusic](https://www.youtube.com/@slsmusic) fan
+- 🐱 Cataholic · escape room enthusiast · mystery novels · puzzles · milk tea
 
 ---
 
