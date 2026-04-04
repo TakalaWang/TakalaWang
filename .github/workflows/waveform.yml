@@ -1,9 +1,9 @@
-name: Generate Waveform
+name: Update Waveform
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # daily at midnight UTC
+  workflow_dispatch: # manual trigger
 
 jobs:
   generate:
@@ -11,15 +11,114 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: TakalaWang/readme-waves@v1
-        with:
-          playlist_url: 'https://www.youtube.com/playlist?list=PLqY5-xxyprjvRFtzx5OPeWYIyncPC2JGi'
-          output_path: assets/waveform.svg
-          rows: '7'
-          cols: '52'
-          frames: '60'
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg python3
+          curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          chmod a+rx /usr/local/bin/yt-dlp
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust build
+        uses: actions/cache@v4
         with:
-          commit_message: 'chore: update waveform'
-          file_pattern: 'assets/*'
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            readme-waves/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Clone and build readme-waves
+        run: |
+          git clone --depth 1 https://github.com/TakalaWang/readme-waves.git
+          cd readme-waves
+          cargo build --release
+
+      - name: Generate video from playlist
+        run: |
+          readme-waves/target/release/readme-waves \
+            "https://www.youtube.com/playlist?list=PLqY5-xxyprjvRFtzx5OPeWYIyncPC2JGi" \
+            --video \
+            -o assets/waveform.mp4 \
+            --rows 7 \
+            --cols 52 \
+            --fps 24
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Upload video to GitHub CDN
+        id: upload
+        run: |
+          npm install user-attachments
+          node -e "
+            const { uploadPoliciesAssets } = require('user-attachments');
+            const fs = require('fs');
+            (async () => {
+              const file = fs.readFileSync('assets/waveform.mp4');
+              const result = await uploadPoliciesAssets({
+                cookie: process.env.GH_COOKIE,
+                repositoryId: process.env.REPO_ID,
+                file: file,
+                name: 'waveform.mp4',
+                contentType: 'video/mp4',
+              });
+              console.log('UPLOAD_URL=' + result);
+              fs.writeFileSync('upload_url.txt', result);
+            })().catch(e => { console.error(e); process.exit(1); });
+          "
+          echo "video_url=$(cat upload_url.txt)" >> $GITHUB_OUTPUT
+        env:
+          GH_COOKIE: ${{ secrets.GH_COOKIE }}
+          REPO_ID: ${{ secrets.REPO_ID }}
+
+      - name: Update README with new video
+        run: |
+          VIDEO_URL="${{ steps.upload.outputs.video_url }}"
+          METADATA=$(cat assets/waveform.json)
+          TITLE=$(echo "$METADATA" | jq -r '.title')
+          ARTIST=$(echo "$METADATA" | jq -r '.artist')
+          YT_URL=$(echo "$METADATA" | jq -r '.url')
+
+          # Replace the Now Playing section in README
+          python3 << 'PYEOF'
+          import re, os
+
+          video_url = os.environ.get('VIDEO_URL', '')
+          title = os.environ.get('TITLE', '')
+          artist = os.environ.get('ARTIST', '')
+          yt_url = os.environ.get('YT_URL', '')
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          # Replace video URL (user-attachments URL on its own line)
+          pattern = r'(## Now Playing\s*\n\s*<div align="center">\s*\n\s*)\S+\.mp4(\s*\n)'
+          replacement = f'\\1{video_url}\\2'
+          content = re.sub(pattern, replacement, content)
+
+          # Replace song info line
+          pattern = r'\*\*\[.+?\]\(.+?\)\*\* \| \*Updated daily from my playlist\*'
+          replacement = f'**[{title} / {artist}]({yt_url})** | *Updated daily from my playlist*'
+          content = re.sub(pattern, replacement, content)
+
+          with open('README.md', 'w') as f:
+              f.write(content)
+          PYEOF
+        env:
+          VIDEO_URL: ${{ steps.upload.outputs.video_url }}
+          TITLE: ${{ steps.upload.outputs.title }}
+          ARTIST: ${{ steps.upload.outputs.artist }}
+          YT_URL: ${{ steps.upload.outputs.yt_url }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/waveform.json
+          git diff --staged --quiet || git commit -m "chore: update daily waveform"
+          git push
