@@ -41,20 +41,37 @@ jobs:
             await page.fill('#password', process.env.GH_PASSWORD);
             await page.click('[name="commit"]');
 
-            // Handle 2FA (TOTP)
-            try {
-              await page.waitForSelector('#app_totp', { timeout: 10000 });
-              const totp = authenticator.generate(process.env.TOTP_SECRET);
-              await page.fill('#app_totp', totp);
-              // Wait for navigation after TOTP
-              await page.waitForNavigation({ timeout: 15000 });
-            } catch (e) {
-              // Maybe no 2FA prompt, or different flow
-              console.log('2FA note:', e.message);
+            // Handle 2FA — GitHub may show passkey prompt first
+            await page.waitForTimeout(3000);
+
+            // If passkey prompt appears, click "Use your authenticator app" or similar
+            const altMethodLink = await page.$('a:has-text("authenticator"), a:has-text("another method"), a:has-text("other method"), button:has-text("authenticator")');
+            if (altMethodLink) {
+              console.log('Found alternative method link, clicking...');
+              await altMethodLink.click();
+              await page.waitForTimeout(2000);
             }
 
-            // Wait for login to complete
-            await page.waitForURL('https://github.com/**', { timeout: 15000 });
+            // Try to find TOTP input with multiple possible selectors
+            const totpInput = await page.$('#app_totp') || await page.$('input[name="app_otp"]') || await page.$('input[type="text"][autocomplete="one-time-code"]');
+            if (totpInput) {
+              console.log('Found TOTP input, entering code...');
+              const totp = authenticator.generate(process.env.TOTP_SECRET);
+              await totpInput.fill(totp);
+              // Click verify button if present
+              const verifyBtn = await page.$('button:has-text("Verify"), button[type="submit"]');
+              if (verifyBtn) await verifyBtn.click();
+              await page.waitForTimeout(5000);
+            } else {
+              console.log('No TOTP input found, taking screenshot for debug...');
+              console.log('Page URL:', page.url());
+              console.log('Page title:', await page.title());
+            }
+
+            // Wait for redirect to dashboard
+            await page.waitForURL('https://github.com/**', { timeout: 15000 }).catch(() => {
+              console.log('Final URL:', page.url());
+            });
 
             // Extract user_session cookie
             const cookies = await context.cookies('https://github.com');
