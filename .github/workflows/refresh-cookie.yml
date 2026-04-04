@@ -17,7 +17,7 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm install playwright otplib
+        run: npm install playwright totp-generator
 
       - name: Install Playwright browser
         run: npx playwright install chromium
@@ -27,8 +27,7 @@ jobs:
         run: |
           node << 'SCRIPT'
           const { chromium } = require('playwright');
-          const otplib = require('otplib');
-          const authenticator = otplib.authenticator;
+          const { TOTP } = require('totp-generator');
           const fs = require('fs');
 
           (async () => {
@@ -47,7 +46,7 @@ jobs:
             console.log('2FA page loaded:', page.url());
 
             // Enter TOTP code
-            const totp = authenticator.generate(process.env.TOTP_SECRET);
+            const { otp: totp } = TOTP.generate(process.env.TOTP_SECRET);
             await page.fill('#app_totp', totp);
             await page.click('button:has-text("Verify")');
 
