@@ -98,7 +98,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
 
-https://github.com/user-attachments/assets/27001b70-0903-487b-afae-5705edaa6265
+https://github.com/user-attachments/assets/8b7e2b8a-beab-45a5-a914-820907e8c56e
 
 **[Mili - YUBIKIRI-GENMAN](https://www.youtube.com/watch?v=AN72_SVbETA)** | [readme-waves](https://github.com/TakalaWang/readme-waves)
 
