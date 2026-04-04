@@ -62,6 +62,12 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=TakalaWang&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/TakalaWang)
+
+</div>
+
+<div align="center">
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
 
 </div>
