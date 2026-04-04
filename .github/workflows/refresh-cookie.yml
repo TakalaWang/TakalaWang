@@ -68,35 +68,28 @@ jobs:
             await page.waitForSelector('#app_totp', { timeout: 10000 });
             console.log('2FA page loaded:', page.url());
 
-            // Generate TOTP as late as possible to avoid timing issues
+            // Generate TOTP and type it (not fill — to trigger JS events)
             const totp = generateTOTP(process.env.TOTP_SECRET);
             console.log('TOTP generated, length:', totp.length);
-
-            // Fill and submit
-            await page.fill('#app_totp', totp);
-            await page.click('button:has-text("Verify")');
-            await page.waitForTimeout(5000);
-
-            // Debug: what does the page show after TOTP submit?
+            await page.click('#app_totp');
+            await page.type('#app_totp', totp, { delay: 50 });
+            await page.waitForTimeout(500);
+            await page.keyboard.press('Enter');
+            await page.waitForTimeout(8000);
             console.log('After TOTP - URL:', page.url());
-            const bodyText = await page.$eval('body', el => el.innerText.substring(0, 1000));
-            console.log('Page text:', bodyText);
 
-            // Check if we're past 2FA
-            if (!page.url().includes('/sessions/')) {
-              console.log('Login complete!');
-            } else {
-              // Retry with fresh code
-              console.log('Retrying with fresh TOTP...');
-              await page.waitForTimeout(2000);
+            if (page.url().includes('/sessions/')) {
+              // First code might have been wrong/expired, retry
+              console.log('Retrying with fresh code...');
+              const bodyText = await page.$eval('body', el => el.innerText.substring(0, 300));
+              console.log('Page says:', bodyText);
+              await page.fill('#app_totp', '');
               const totp2 = generateTOTP(process.env.TOTP_SECRET);
-              const input = await page.$('#app_totp');
-              if (input) {
-                await input.fill(totp2);
-                await page.click('button:has-text("Verify")');
-                await page.waitForTimeout(5000);
-                console.log('After retry - URL:', page.url());
-              }
+              await page.type('#app_totp', totp2, { delay: 50 });
+              await page.waitForTimeout(500);
+              await page.keyboard.press('Enter');
+              await page.waitForTimeout(8000);
+              console.log('After retry - URL:', page.url());
             }
 
             // Extract user_session cookie
