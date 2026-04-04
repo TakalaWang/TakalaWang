@@ -62,7 +62,6 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <div align="center">
   <img height="170em" src="https://github-readme-stats-tau-blond-48.vercel.app/api?username=TakalaWang&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true&v=4" />
-  <img height="170em" src="https://github-readme-stats-tau-blond-48.vercel.app/api/top-langs/?username=TakalaWang&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8&hide=jupyter%20notebook&v=3" />
 </div>
 
 <div align="center">
