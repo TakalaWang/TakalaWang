@@ -27,7 +27,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 **Work**
 - 💼 **[GitRoll](https://gitroll.io)** — Software Engineer (current)
 - 💼 **Acer** — R&D Summer Intern (2025)
-- 💻 **[Cool English](https://www.coolenglish.edu.tw/)** — Website Developer
+- 💻 **Cool English** — Website Developer
 - 🏫 **Nanggang & Heping High School** — Intern Teacher (2025)
 
 **Teaching & Community**
