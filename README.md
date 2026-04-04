@@ -49,12 +49,12 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 | | |
 |---|---|
-| **💻 Languages** | Python · TypeScript · Go · Rust · C/C++ |
+| **💻 Languages** | TypeScript · Python · JavaScript · C/C++ · Rust · Go |
 | **🌐 Frontend** | TypeScript · SvelteKit · React · Next.js · Astro · Vite · Tailwind CSS |
-| **⚙️ Backend** | Hono · FastAPI · Express · Node.js |
+| **⚙️ Backend** | TypeScript · Node.js · Express · Hono · FastAPI |
 | **🤖 AI/ML** | PyTorch · Hugging Face · OpenAI · Google Gemini · Azure Speech SDK |
-| **🗄️ Data** | PostgreSQL · MySQL · Redis · Firebase · Firestore · Prisma · Drizzle |
-| **☁️ Infra** | Docker · Kubernetes · Temporal · GitHub Actions · Vercel · GCP · Azure |
+| **🗄️ Data** | PostgreSQL · MySQL · Redis · Firestore · Prisma · Drizzle |
+| **☁️ Infra** | Docker · Kubernetes · Temporal · GitHub Actions · Vercel · Firebase · GCP · Azure |
 | **🧪 Testing** | Vitest · Playwright |
 
 ---
@@ -86,17 +86,22 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 ---
 
-## Contact Me
+### 📫 Contact Me
 
 <div align="center">
 
 **ccwangtakala@gmail.com**
 
-Got a project idea, want to team up for an escape room, or just want to chat? Feel free to reach out!
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/Takala%20Wang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/takalawang/)
-[![GitHub](https://img.shields.io/badge/TakalaWang-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TakalaWang)
-[![Hugo Wang](https://img.shields.io/badge/Hugo%20Wang-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/whyhugo)
+[![Linkedin](https://img.shields.io/badge/Linkedin-Takala%20Wang-0077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/takalawang/)
+[![GitHub](https://img.shields.io/badge/GitHub-TakalaWang-100000.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/TakalaWang)
+[![Instagram](https://img.shields.io/badge/IG-takala__1128-E4405F.svg?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/takala_1128/)
+[![Facebook](https://img.shields.io/badge/FB-Takala1128-1877F2.svg?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/Takala1128)
+
+<br>
+
+[![More About Me](https://img.shields.io/badge/More_About_Me-➜-2ea44f?style=for-the-badge)](https://takalawang.github.io/about/)
 
 </div>
 
