@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=39d353&center=true&vCenter=true&width=520&height=45&lines=Hi+there%2C+I'm+Takala+Wang+%F0%9F%91%8B;Full-Stack+Developer+%7C+Open+Source;Building+tools+and+solve+real+problems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=39d353&center=true&vCenter=true&width=520&height=45&lines=Hi+there%2C+I'm+Takala+Wang+%F0%9F%91%8B;Full-Stack+Developer+%7C+Open+Source;Building+tools+and+solving+real+problems)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-takalawang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/takalawang/)
 [![Blog](https://img.shields.io/badge/Blog-takalawang.github.io-39d353?style=flat-square&logo=astro&logoColor=white)](https://takalawang.github.io/)
@@ -111,7 +111,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 https://github.com/user-attachments/assets/27001b70-0903-487b-afae-5705edaa6265
 
-**[Mili - YUBIKIRI-GENMAN](https://www.youtube.com/watch?v=AN72_SVbETA)** | [readme-wave](https://github.com/TakalaWang/readme-waves)
+**[Mili - YUBIKIRI-GENMAN](https://www.youtube.com/watch?v=AN72_SVbETA)** | [readme-waves](https://github.com/TakalaWang/readme-waves)
 
 </div>
 
