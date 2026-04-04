@@ -45,9 +45,9 @@ fun:
 
 <div align="center">
 
-<video src="https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4" controls autoplay loop muted></video>
+https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4
 
-**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Click to unmute* | *Updated daily from my playlist*
+**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Updated daily from my playlist*
 
 </div>
 
@@ -62,23 +62,13 @@ fun:
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TakalaWang&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/TakalaWang)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=TakalaWang&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/TakalaWang)
 
 </div>
 
 <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=TakalaWang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/TakalaWang)
-
-</div>
-
----
-
-## LeetCode
-
-<div align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/takalawang?theme=dark&font=Source%20Code%20Pro&ext=heatmap)](https://leetcode.com/takalawang/)
 
 </div>
 
