@@ -4,7 +4,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-TakalaWang-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/takalawang/)
 [![Blog](https://img.shields.io/badge/Blog-takalawang.github.io-39d353?style=flat-square&logo=astro)](https://takalawang.github.io/)
-[![Instagram](https://img.shields.io/badge/Instagram-takala__1128-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/takala_1128/)
 ![Profile Views](https://komarev.com/ghpvc/?username=TakalaWang&style=flat-square&color=39d353)
 
 </div>
@@ -39,19 +38,6 @@ fun:
 
 </div>
 
----
-
-## Now Playing
-
-<div align="center">
-
-https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4
-
-**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Updated daily from my playlist*
-
-</div>
-
----
 
 ## GitHub Stats
 
@@ -82,3 +68,17 @@ https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4
 [![discord-code-agent](https://github-readme-stats.vercel.app/api/pin/?username=TakalaWang&repo=discord-code-agent&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/TakalaWang/discord-code-agent)
 
 </div>
+
+---
+
+## Now Playing
+
+<div align="center">
+
+![](https://github.com/TakalaWang/TakalaWang/raw/main/assets/waveform.mp4)
+
+**[You Are Not Alone - Yuuki (SAO) / SLSMusic](https://www.youtube.com/watch?v=0B2YwrNmDyk)** | *Updated daily from my playlist*
+
+</div>
+
+---
