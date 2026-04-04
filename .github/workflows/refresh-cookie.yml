@@ -41,31 +41,57 @@ jobs:
             await page.fill('#password', process.env.GH_PASSWORD);
             await page.click('[name="commit"]');
 
-            // Handle 2FA — GitHub may show passkey prompt first
+            // Handle 2FA — dump page to find the right selectors
             await page.waitForTimeout(3000);
+            console.log('After login - URL:', page.url());
 
-            // If passkey prompt appears, click "Use your authenticator app" or similar
-            const altMethodLink = await page.$('a:has-text("authenticator"), a:has-text("another method"), a:has-text("other method"), button:has-text("authenticator")');
-            if (altMethodLink) {
-              console.log('Found alternative method link, clicking...');
-              await altMethodLink.click();
-              await page.waitForTimeout(2000);
+            // Log all links and buttons on the page for debugging
+            const elements = await page.$$eval('a, button', els =>
+              els.map(e => ({ tag: e.tagName, text: e.textContent.trim().substring(0, 80), href: e.href || '' }))
+                .filter(e => e.text.length > 0)
+            );
+            console.log('Page elements:', JSON.stringify(elements, null, 2));
+
+            // Log all input fields
+            const inputs = await page.$$eval('input', els =>
+              els.map(e => ({ name: e.name, id: e.id, type: e.type, autocomplete: e.autocomplete }))
+            );
+            console.log('Input fields:', JSON.stringify(inputs));
+
+            // Try clicking any link that might lead to TOTP
+            for (const text of ['authenticator', 'another way', 'other method', 'Use a', 'code', 'totp', 'one-time']) {
+              const link = await page.$(`a:has-text("${text}"), button:has-text("${text}")`);
+              if (link) {
+                console.log('Clicking link with text containing:', text);
+                await link.click();
+                await page.waitForTimeout(2000);
+                break;
+              }
             }
 
-            // Try to find TOTP input with multiple possible selectors
-            const totpInput = await page.$('#app_totp') || await page.$('input[name="app_otp"]') || await page.$('input[type="text"][autocomplete="one-time-code"]');
+            // Log page state after clicking
+            console.log('After click - URL:', page.url());
+            const inputs2 = await page.$$eval('input', els =>
+              els.map(e => ({ name: e.name, id: e.id, type: e.type, autocomplete: e.autocomplete }))
+            );
+            console.log('Input fields after:', JSON.stringify(inputs2));
+
+            // Try all possible TOTP input selectors
+            const totpInput = await page.$('#app_totp')
+              || await page.$('input[name="app_otp"]')
+              || await page.$('input[autocomplete="one-time-code"]')
+              || await page.$('input[name="otp"]')
+              || await page.$('input[type="text"]');
+
             if (totpInput) {
               console.log('Found TOTP input, entering code...');
               const totp = authenticator.generate(process.env.TOTP_SECRET);
               await totpInput.fill(totp);
-              // Click verify button if present
-              const verifyBtn = await page.$('button:has-text("Verify"), button[type="submit"]');
+              const verifyBtn = await page.$('button[type="submit"], button:has-text("Verify")');
               if (verifyBtn) await verifyBtn.click();
               await page.waitForTimeout(5000);
             } else {
-              console.log('No TOTP input found, taking screenshot for debug...');
-              console.log('Page URL:', page.url());
-              console.log('Page title:', await page.title());
+              console.log('No TOTP input found');
             }
 
             // Wait for redirect to dashboard
