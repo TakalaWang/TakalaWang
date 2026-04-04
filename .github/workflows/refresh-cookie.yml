@@ -2,7 +2,7 @@ name: Refresh GitHub Cookie
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # every Sunday midnight UTC
+    - cron: '0 0 1 * *' # monthly on the 1st
   workflow_dispatch: # manual trigger
 
 jobs:
