@@ -53,7 +53,7 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 | **⚙️ Backend** | TypeScript · Node.js · Express · Hono · FastAPI |
 | **🤖 AI/ML** | PyTorch · Hugging Face · OpenAI · Google Gemini · Azure Speech SDK |
 | **🗄️ Data** | PostgreSQL · MySQL · Redis · Firestore · Prisma · Drizzle |
-| **☁️ Infra** | Docker · Kubernetes · Temporal · GitHub Actions · Vercel · Firebase · GCP · Azure |
+| **☁️ Infra** | Docker · Kubernetes · Temporal · GitHub Actions · Vercel · Firebase · GCP · Temporal |
 | **🧪 Testing** | Vitest · Playwright |
 
 ---
