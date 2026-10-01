@@ -3,6 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=39d353&center=true&vCenter=true&width=520&height=45&lines=Hi+there%2C+I'm+Takala+Wang+%F0%9F%91%8B;Full-Stack+Developer+%7C+Open+Source;Building+tools+solve+real+problems)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-takalawang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/takalawang/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-takalawang.github.io%2Fresume-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://takalawang.github.io/resume/)
 [![Blog](https://img.shields.io/badge/Blog-takalawang.github.io-39d353?style=flat-square&logo=astro&logoColor=white)](https://takalawang.github.io/)
 ![Profile Views](https://komarev.com/ghpvc/?username=TakalaWang&style=flat-square&color=39d353)
 
@@ -88,7 +89,8 @@ Full-Stack Developer from Taiwan 🇹🇼 who loves building open-source tools a
 
 <br>
 
-[![More About Me](https://img.shields.io/badge/More_About_Me-➜-2ea44f?style=for-the-badge)](https://takalawang.github.io/about/)
+[![Portfolio](https://img.shields.io/badge/Portfolio_%26_Résumé-➜-2ea44f?style=for-the-badge)](https://takalawang.github.io/resume/)
+[![More About Me](https://img.shields.io/badge/More_About_Me-➜-39d353?style=for-the-badge)](https://takalawang.github.io/about/)
 
 </div>
 
